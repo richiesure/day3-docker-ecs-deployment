@@ -1,0 +1,19 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+*.tfvars
+crash.log
+override.tf
+override.tf.json
+
+# Docker files
+*.zip
+
+# AWS files
+response.json
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,12 @@
+{
+  "name": "devops-day3-app",
+  "version": "1.0.0",
+  "description": "Containerized web application for DevOps Day 3",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["docker", "ecs", "devops"],
+  "author": "DevOps Learning",
+  "license": "MIT"
+}
