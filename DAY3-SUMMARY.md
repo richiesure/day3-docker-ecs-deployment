@@ -352,6 +352,8 @@ aws ecr describe-repositories --region eu-west-2
 ---
 
 <img width="1914" height="971" alt="image" src="https://github.com/user-attachments/assets/86eae775-b354-4a93-9b52-a3610f8bdbdb" />
+<img width="1831" height="925" alt="image" src="https://github.com/user-attachments/assets/81989bed-d168-4977-8d37-2e6b77e3b26d" />
+
 <img width="1691" height="938" alt="image" src="https://github.com/user-attachments/assets/58666abf-5ebb-4c76-bede-fa2e18d427e7" />
 <img width="1747" height="857" alt="image" src="https://github.com/user-attachments/assets/1ef54471-2075-4861-8bcd-c31e58600962" />
 ## Comparison: Day 1 vs Day 2 vs Day 3
