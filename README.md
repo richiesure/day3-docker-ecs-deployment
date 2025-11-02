@@ -177,7 +177,7 @@ Total: ~$35/month
 
 ## Production Enhancements
 
-For production, you would add:
+For production, I would add:
 1. **Application Load Balancer** (single endpoint, health checks)
 2. **Auto Scaling** (CPU/memory-based scaling)
 3. **Service Discovery** (AWS Cloud Map)
@@ -260,7 +260,7 @@ This setup demonstrates patterns used by companies like:
 
 ---
 
-**Author:** DevOps Learning Journey - Day 3
+**Author:** IAMEFEMENA (Richiesure)- Day 3
 **Container IPs:**
 - http://18.133.187.21:3000
 - http://13.42.19.189:3000
