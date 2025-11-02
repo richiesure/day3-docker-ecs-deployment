@@ -137,7 +137,7 @@ Metrics:          CPU, Memory, Network via Container Insights
 - ❌ More complex infrastructure
 
 ### 5. **Horizontal vs Vertical Scaling**
-**Horizontal (What we did):**
+**Horizontal (What I did):**
 - Add more container instances (2 → 4)
 - Better for stateless applications
 - Unlimited scaling potential
@@ -171,7 +171,7 @@ Metrics:          CPU, Memory, Network via Container Insights
 
 ## 🔍 Real-World Comparison
 
-### What We Built vs Production Setup
+### What I Built vs Production Setup
 
 **Our Setup (Learning)**:
 - Direct container access via public IPs
@@ -282,7 +282,7 @@ Zero downtime:         ✅ Achieved
 
 ## 🔐 Security Considerations
 
-### What We Implemented
+### What I Implemented
 - ✅ Private ECR repository
 - ✅ IAM roles with least privilege
 - ✅ Security groups (firewall rules)
@@ -336,21 +336,9 @@ aws ecr delete-repository \
 # Verify cleanup
 aws ecs list-clusters --region eu-west-2
 aws ecr describe-repositories --region eu-west-2
-```
-
 ---
 
-## 🚀 Next Steps - Day 4 Preview
-
-Tomorrow you'll work on:
-- **CI/CD Pipeline**: Automated build and deployment with CodePipeline
-- **Blue-Green Deployments**: Zero-downtime updates
-- **Infrastructure Monitoring**: CloudWatch Dashboards and Alarms
-- **Container Security**: Vulnerability scanning and compliance
-
----
-
-## 💡 Key Takeaways
+##  Key Takeaways
 
 1. **Containers solve the "works on my machine" problem** - Same image everywhere
 2. **ECS Fargate is truly serverless** - No servers to patch or manage
@@ -363,7 +351,7 @@ Tomorrow you'll work on:
 
 ---
 
-## 📊 Comparison: Day 1 vs Day 2 vs Day 3
+## Comparison: Day 1 vs Day 2 vs Day 3
 
 | Aspect | Day 1 (EC2) | Day 2 (Lambda) | Day 3 (ECS) |
 |--------|-------------|----------------|-------------|
@@ -374,18 +362,6 @@ Tomorrow you'll work on:
 | **Use Case** | Long-running apps | Event-driven tasks | Microservices |
 | **Startup** | Minutes | Milliseconds | Seconds |
 
----
-
-## 🎊 Congratulations!
-
-You've completed a **senior-level DevOps task**! You've:
-- Containerized an application from scratch
-- Deployed to a production-grade container orchestration platform
-- Implemented scaling and monitoring
-- Documented everything professionally
-- Version controlled the entire infrastructure
-
-**This is real DevOps engineering work that companies pay $100k+ salaries for!**
 
 ---
 
@@ -395,4 +371,4 @@ You've completed a **senior-level DevOps task**! You've:
 - http://18.133.187.21:3000
 - http://13.42.19.189:3000
 
-**Remember**: Scale down or destroy resources when not actively learning to avoid costs!
+**Remember**: Scale down or destroy resources when not actively learning to avoid costs! Please follow for more
