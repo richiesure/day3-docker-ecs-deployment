@@ -252,13 +252,9 @@ This setup demonstrates patterns used by companies like:
 - **Uber**: Dynamic scaling based on demand
 - **Amazon**: Internal services on ECS
 
-## Next Steps - Day 4 Preview
-- CI/CD pipelines with CodePipeline
-- Blue-Green deployments
-- Container security scanning
-- Multi-region deployments
-
----
+<img width="1914" height="971" alt="image" src="https://github.com/user-attachments/assets/86eae775-b354-4a93-9b52-a3610f8bdbdb" />
+<img width="1691" height="938" alt="image" src="https://github.com/user-attachments/assets/58666abf-5ebb-4c76-bede-fa2e18d427e7" />
+<img width="1747" height="857" alt="image" src="https://github.com/user-attachments/assets/1ef54471-2075-4861-8bcd-c31e58600962" />
 
 **Author:** IAMEFEMENA (Richiesure)- Day 3
 **Container IPs:**
