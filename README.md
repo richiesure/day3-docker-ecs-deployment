@@ -5,7 +5,7 @@ This project demonstrates containerizing a Node.js web application with Docker a
 
 ## Architecture
 ```
-Docker Image (ECR) → ECS Fargate Tasks (4 containers) → Public IPs
+Docker Image (ECR) → ECS Fargate Tasks (4 containers) → Public IPs 
                            ↓
                     CloudWatch Logs
 ```
