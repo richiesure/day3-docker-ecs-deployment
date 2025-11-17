@@ -2,7 +2,7 @@ const http = require('http');
 const os = require('os');
 
 const PORT = process.env.PORT || 3000;
-const VERSION = process.env.APP_VERSION || '1.0.0';
+const VERSION = process.env.APP_VERSION || '2.0.0';
 
 const server = http.createServer((req, res) => {
     const hostname = os.hostname();
@@ -14,7 +14,8 @@ const server = http.createServer((req, res) => {
         res.end(JSON.stringify({ 
             status: 'healthy',
             hostname: hostname,
-            uptime: Math.floor(uptime)
+            uptime: Math.floor(uptime),
+            version: VERSION
         }));
         return;
     }
@@ -25,7 +26,7 @@ const server = http.createServer((req, res) => {
         <!DOCTYPE html>
         <html>
         <head>
-            <title>DevOps Day 3 - Docker & ECS</title>
+            <title>DevOps Day 4 - CI/CD Pipeline</title>
             <style>
                 body {
                     font-family: Arial, sans-serif;
@@ -49,18 +50,28 @@ const server = http.createServer((req, res) => {
                     margin: 10px 0;
                 }
                 .label { font-weight: bold; }
+                .version-badge {
+                    display: inline-block;
+                    background: #4CAF50;
+                    padding: 5px 15px;
+                    border-radius: 20px;
+                    font-size: 14px;
+                    margin-top: 10px;
+                }
             </style>
         </head>
         <body>
             <div class="container">
-                <h1>🐳 DevOps Day 3: Docker & ECS Deployment</h1>
+                <h1>🚀 DevOps Day 4: CI/CD Pipeline</h1>
+                <span class="version-badge">Version ${VERSION}</span>
                 <div class="info">
                     <p><span class="label">Container ID:</span> ${hostname}</p>
                     <p><span class="label">Version:</span> ${VERSION}</p>
                     <p><span class="label">Uptime:</span> ${Math.floor(uptime)} seconds</p>
                     <p><span class="label">Port:</span> ${PORT}</p>
                 </div>
-                <p>✅ This application is running in a Docker container on AWS ECS!</p>
+                <p>✅ This was deployed automatically via GitHub Actions!</p>
+                <p>🎯 Push to main branch → Auto build → Auto deploy to ECS</p>
             </div>
         </body>
         </html>
